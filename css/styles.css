@@ -139,3 +139,14 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+
+
+/* Login del index.html */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
