@@ -7,8 +7,14 @@ const PRODUCT_INFO_COMMENTS_URL = "https://japdevdep.github.io/ecommerce-api/pro
 const CART_INFO_URL = "https://japdevdep.github.io/ecommerce-api/cart/987.json";
 const CART_BUY_URL = "https://japdevdep.github.io/ecommerce-api/cart/buy.json";
 
+
 document.getElementById("btn-goToHome").onclick = function () {
+  let email = document.forms["signInForm"]["femail"].value;
+  let pass = document.forms["signInForm"]["fpass"].value;
+
+  if (email !== "" && pass !== ""){
     location.href = "home.html";
+  }
 };
 
 
